@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 0 0 15px rgb(135, 101, 156);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+h1::selection{
+    color:rgb(227, 49, 141);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.registro {
+    margin-top: 90px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+
+input {
+    margin-top: 5px;
+    padding: 7px;
+    background-color: rgb(243, 223, 232) ;
+    border: 0px;
+    border-radius: 5px;
+    outline-color: rgb(244, 142, 255);
+
+}
+
+input .correo{
+    margin-bottom: 0px;
+}
+
+.error {
+    background-color: rgb(212, 24, 127);
+    border: 2px solid rgb(134, 4, 240);
+}
+
+button {
+    margin-top: 20px;
+    padding: 7px;
+    background-color: rgb(240, 200, 218);
+    color: rgb(142, 3, 119);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(245, 193, 237);
+}
+
+.error{
+    background-color: rgb(236, 171, 177) ;
+    border: 1px solid rgb(238, 54, 54);;
+}
+.circleCrossNombre, .circleCrossCelular, .circleCrossCorreo{
+    color: rgb(161, 52, 52);
+}
+
+.ocultar{
+    visibility: hidden;
+}
+
+.mensajeNombre, .mensajeCelular, .mensajeCorreo{
+    color: rgb(161, 52, 52);
+    font-size: small;
+}
+
+.circleCheckNombre, .circleCheckCelular, .circleCheckCorreo{
+    color: rgb(88, 190, 14)
+}
+
+.correcto{
+    background-color: rgb(186, 247, 137); 
+    border: 1px solid  rgb(59, 179, 16);
+}
+
+textarea{
+    margin-bottom: 25px;
+    width: 400px;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(188, 94, 188);
+    width: 1150px;
+}
+th{
+    padding: 10px;
+    background-color: rgb(167, 62, 171);
+    color:white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid violet;
+}
+tr:nth-child(odd){
+    background-color: rgb(224, 182, 216);
+}
+.contenedor{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgb(175, 29, 186);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 5px 10px 5px;
+    width: 80%;
+}
+
+.descripcion{
+    width: 40%;
+}
+.tarjeta{
+    background-color: white;
+}
+
+button , #id_usuario {
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    height: 40px;
+    background-color: rgb(216, 134, 184);
+    color: white;
+    cursor: pointer;
+}
+
+button #editar_usuario{
+    background-color: aqua;
+}
+
+button:hover{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(208, 23, 137);
+    border-color: rgb(235, 27, 176);
+    box-shadow: 0 0 20px rgb(138, 43, 226);
+}
